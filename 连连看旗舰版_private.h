@@ -1,8 +1,8 @@
 /* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
 /* DO NOT EDIT ! */
 
-#ifndef Á¬Á¬¿´Æì½¢°æ_PRIVATE_H
-#define Á¬Á¬¿´Æì½¢°æ_PRIVATE_H
+#ifndef è¿žè¿žçœ‹æ——èˆ°ç‰ˆ_PRIVATE_H
+#define è¿žè¿žçœ‹æ——èˆ°ç‰ˆ_PRIVATE_H
 
 /* VERSION DEFINITIONS */
 #define VER_STRING	"2.4.9.27"
@@ -10,14 +10,14 @@
 #define VER_MINOR	4
 #define VER_RELEASE	9
 #define VER_BUILD	27
-#define COMPANY_NAME	"×ÞÓäÐÀ¹¤×÷ÊÒ"
+#define COMPANY_NAME	"dnzyxå·¥ä½œå®¤"
 #define FILE_VERSION	"2.4.9.27"
-#define FILE_DESCRIPTION	"Á¬Á¬¿´ Microsoft »ù´¡ÀàÓ¦ÓÃ³ÌÐò"
+#define FILE_DESCRIPTION	"è¿žè¿žçœ‹ Microsoft åŸºç¡€ç±»åº”ç”¨ç¨‹åº"
 #define INTERNAL_NAME	"link to link"
-#define LEGAL_COPYRIGHT	"°æÈ¨ËùÓÐ (C) 2016"
+#define LEGAL_COPYRIGHT	"ç‰ˆæƒæ‰€æœ‰ (C) 2016"
 #define LEGAL_TRADEMARKS	"^*^"
-#define ORIGINAL_FILENAME	"Á¬Á¬¿´.exe"
-#define PRODUCT_NAME	"Á¬Á¬¿´ Ó¦ÓÃ³ÌÐò"
+#define ORIGINAL_FILENAME	"è¿žè¿žçœ‹.exe"
+#define PRODUCT_NAME	"è¿žè¿žçœ‹ åº”ç”¨ç¨‹åº"
 #define PRODUCT_VERSION	"2.4.9.27"
 
-#endif /*Á¬Á¬¿´Æì½¢°æ_PRIVATE_H*/
+#endif /*è¿žè¿žçœ‹æ——èˆ°ç‰ˆ_PRIVATE_H*/
