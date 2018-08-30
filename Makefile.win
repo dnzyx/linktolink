@@ -1,0 +1,144 @@
+# Project: 连连看旗舰版
+# Makefile created by Dev-C++ 5.9.2
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = 连连看旗舰版_private.res
+OBJ      = main.o ad.o bomb.o bord.o burn.o bye.o clear.o connect1.o connect2.o connect3.o down.o error.o game.o information.o is_continue.o left.o loading.o magic.o main_menu.o print_score.o more.o noclear.o print.o right.o rule.o selectlevel.o selectlevel_menu.o show.o swap.o tool.o up.o win.o winsreen.o cal_score.o "all_pass_sreen\ .o" fail.o fail_sreen.o show_name.o $(RES)
+LINKOBJ  = main.o ad.o bomb.o bord.o burn.o bye.o clear.o connect1.o connect2.o connect3.o down.o error.o game.o information.o is_continue.o left.o loading.o magic.o main_menu.o print_score.o more.o noclear.o print.o right.o rule.o selectlevel.o selectlevel_menu.o show.o swap.o tool.o up.o win.o winsreen.o cal_score.o "all_pass_sreen .o" fail.o fail_sreen.o show_name.o $(RES)
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = 连连看.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+ad.o: ad.c
+	$(CC) -c ad.c -o ad.o $(CFLAGS)
+
+bomb.o: bomb.c
+	$(CC) -c bomb.c -o bomb.o $(CFLAGS)
+
+bord.o: bord.c
+	$(CC) -c bord.c -o bord.o $(CFLAGS)
+
+burn.o: burn.c
+	$(CC) -c burn.c -o burn.o $(CFLAGS)
+
+bye.o: bye.c
+	$(CC) -c bye.c -o bye.o $(CFLAGS)
+
+clear.o: clear.c
+	$(CC) -c clear.c -o clear.o $(CFLAGS)
+
+connect1.o: connect1.c
+	$(CC) -c connect1.c -o connect1.o $(CFLAGS)
+
+connect2.o: connect2.c
+	$(CC) -c connect2.c -o connect2.o $(CFLAGS)
+
+connect3.o: connect3.c
+	$(CC) -c connect3.c -o connect3.o $(CFLAGS)
+
+down.o: down.c
+	$(CC) -c down.c -o down.o $(CFLAGS)
+
+error.o: error.c
+	$(CC) -c error.c -o error.o $(CFLAGS)
+
+game.o: game.c
+	$(CC) -c game.c -o game.o $(CFLAGS)
+
+information.o: information.c
+	$(CC) -c information.c -o information.o $(CFLAGS)
+
+is_continue.o: is_continue.c
+	$(CC) -c is_continue.c -o is_continue.o $(CFLAGS)
+
+left.o: left.c
+	$(CC) -c left.c -o left.o $(CFLAGS)
+
+loading.o: loading.c
+	$(CC) -c loading.c -o loading.o $(CFLAGS)
+
+magic.o: magic.c
+	$(CC) -c magic.c -o magic.o $(CFLAGS)
+
+main_menu.o: main_menu.c
+	$(CC) -c main_menu.c -o main_menu.o $(CFLAGS)
+
+print_score.o: print_score.c
+	$(CC) -c print_score.c -o print_score.o $(CFLAGS)
+
+more.o: more.c
+	$(CC) -c more.c -o more.o $(CFLAGS)
+
+noclear.o: noclear.c
+	$(CC) -c noclear.c -o noclear.o $(CFLAGS)
+
+print.o: print.c
+	$(CC) -c print.c -o print.o $(CFLAGS)
+
+right.o: right.c
+	$(CC) -c right.c -o right.o $(CFLAGS)
+
+rule.o: rule.c
+	$(CC) -c rule.c -o rule.o $(CFLAGS)
+
+selectlevel.o: selectlevel.c
+	$(CC) -c selectlevel.c -o selectlevel.o $(CFLAGS)
+
+selectlevel_menu.o: selectlevel_menu.c
+	$(CC) -c selectlevel_menu.c -o selectlevel_menu.o $(CFLAGS)
+
+show.o: show.c
+	$(CC) -c show.c -o show.o $(CFLAGS)
+
+swap.o: swap.c
+	$(CC) -c swap.c -o swap.o $(CFLAGS)
+
+tool.o: tool.c
+	$(CC) -c tool.c -o tool.o $(CFLAGS)
+
+up.o: up.c
+	$(CC) -c up.c -o up.o $(CFLAGS)
+
+win.o: win.c
+	$(CC) -c win.c -o win.o $(CFLAGS)
+
+winsreen.o: winsreen.c
+	$(CC) -c winsreen.c -o winsreen.o $(CFLAGS)
+
+cal_score.o: cal_score.c
+	$(CC) -c cal_score.c -o cal_score.o $(CFLAGS)
+
+"all_pass_sreen\ .o": all_pass_sreen\ .c
+	$(CC) -c "all_pass_sreen .c" -o "all_pass_sreen .o" $(CFLAGS)
+
+fail.o: fail.c
+	$(CC) -c fail.c -o fail.o $(CFLAGS)
+
+fail_sreen.o: fail_sreen.c
+	$(CC) -c fail_sreen.c -o fail_sreen.o $(CFLAGS)
+
+show_name.o: show_name.c
+	$(CC) -c show_name.c -o show_name.o $(CFLAGS)
+
+连连看旗舰版_private.res: 连连看旗舰版_private.rc 
+	$(WINDRES) -i 连连看旗舰版_private.rc --input-format=rc -o 连连看旗舰版_private.res -O coff 
+
