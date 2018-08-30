@@ -4,7 +4,7 @@
 #include <windows.h> // include for version info constants
 
 
-A ICON "Á¬Á¬¿´.ico"
+A ICON "è¿è¿çœ‹.ico"
 
 //
 // TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
@@ -18,14 +18,14 @@ FILETYPE VFT_APP
   {
     BLOCK "080404E4"
     {
-      VALUE "CompanyName", "×ŞÓäĞÀ¹¤×÷ÊÒ"
+      VALUE "CompanyName", "dnzyxå·¥ä½œå®¤"
       VALUE "FileVersion", "2.4.9.27"
-      VALUE "FileDescription", "Á¬Á¬¿´ Microsoft »ù´¡ÀàÓ¦ÓÃ³ÌĞò"
+      VALUE "FileDescription", "è¿è¿çœ‹ Microsoft åŸºç¡€ç±»åº”ç”¨ç¨‹åº"
       VALUE "InternalName", "link to link"
-      VALUE "LegalCopyright", "°æÈ¨ËùÓĞ (C) 2016"
+      VALUE "LegalCopyright", "ç‰ˆæƒæ‰€æœ‰ (C) 2016"
       VALUE "LegalTrademarks", "^*^"
-      VALUE "OriginalFilename", "Á¬Á¬¿´.exe"
-      VALUE "ProductName", "Á¬Á¬¿´ Ó¦ÓÃ³ÌĞò"
+      VALUE "OriginalFilename", "è¿è¿çœ‹.exe"
+      VALUE "ProductName", "è¿è¿çœ‹ åº”ç”¨ç¨‹åº"
       VALUE "ProductVersion", "2.4.9.27"
     }
   }
